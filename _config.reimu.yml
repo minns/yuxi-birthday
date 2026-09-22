@@ -668,7 +668,7 @@ injector:
   sidebar_end: # Inject code snippet right before </aside>
 
 pjax:
-  enable: false
+  enable: true
 
 # https://github.com/GoogleChromeLabs/quicklink
 quicklink:
