@@ -6,22 +6,21 @@ theme_config_check: true
 # main menu navigation
 # for more icon information, please visit https://github.com/D-Sketon/hexo-theme-reimu/issues/30
 menu:
-  - name: home
+  - name: 生日首页
     url: /
-    icon: /images/icons/mengbear.png
+    icon: /images/icons/birthday-cake.png
 
-  - name: archives
+  - name: 回忆时光
     url: /archives
-    icon: /images/icons/mengbear.png
+    icon: /images/icons/birthday-cake.png
 
-  - name: about
+  - name: 关于娱希
     url: /about
-    icon: /images/icons/mengbear.png
+    icon: /images/icons/birthday-cake.png
 
-  - name: friend
+  - name: 祝福墙
     url: /friend
-    icon: /images/icons/mengbear.png
-
+    icon: /images/icons/birthday-cake.png
 # friend links
 friends:
   shuffle: false # whether to shuffle the friend links
@@ -44,7 +43,7 @@ subtitle:
     cursorChar: "|"             # character for cursor
     smartBackspace: false       # only backspace what doesn't match the previous string
 
-banner: "/images/banner.jpg" # which means themes/reimu/source/images/banner.webp
+banner: "/images/birthday/main.jpg" # which means themes/reimu/source/images/banner.webp
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
@@ -206,10 +205,9 @@ anchor_icon: # default use '#' icon, you can use a hexadecimal representation of
 reimu_cursor:
   enable: true
   cursor:
-    default: ../images/cursor/reimu-cursor-default.png # this path is relative to the css/style.css, so it needs to go up one level to reach the images folder
-    pointer: ../images/cursor/reimu-cursor-pointer.png
-    text: ../images/cursor/reimu-cursor-text.png
-
+    default: ../images/cursor/cat.png
+    pointer: ../images/cursor/cat.png
+    text: ../images/cursor/cat.png
 # set to false to enable fontawesome
 icon_font: 4552607_ex15nbittbh
 
@@ -512,11 +510,11 @@ generator_search:
 preloader:
   enable: true
   text:
-    zh-CN: 小熊奔跑中...
-    zh-TW: 小熊奔跑中...
-    en: Bear is running...
-    ja: くまさんが走っています...
-  icon: "/images/icons/mengbear.png"
+    zh-CN: 生日惊喜加载中...
+    zh-TW: 生日驚喜載入中...
+    en: Birthday surprise loading...
+    ja: バースデーサプライズを準備中...
+  icon: "/images/icons/birthday-cake.png"
   rotate: false
 
 # see https://github.com/D-Sketon/aos.js
@@ -642,7 +640,7 @@ top:
   enable: true
   position: right
   icon:
-    url: "../images/icons/mengbear.png"
+    url: "../images/icons/birthday-cake.png"
     rotate: false
     mask: false
 
@@ -705,25 +703,28 @@ live2d_widgets:
 # Please turn on pjax to use this feature
 player:
   disable_on_mobile: false
-  position: before_sidebar # before_sidebar / after_sidebar / after_widget
-  # if you enable meting, you must enable aplayer first
+  position: before_sidebar
+
   aplayer:
-    # https://github.com/DIYgod/APlayer
-    enable: false
+    enable: true
     options:
-      audio: []
-      fixed:
-      autoplay:
-      loop:
-      order:
-      preload:
-      volume:
-      mutex:
-      listFolded:
-      lrcType:
+      audio:
+        - name: Blessings
+          artist: Hollow Coves
+          url: /music/blessings.mp3
+          cover: /images/icons/birthday-cake.png
+
+      fixed: false
+      autoplay: true
+      loop: all
+      order: list
+      preload: auto
+      volume: 0.5
+      mutex: true
+      listFolded: true
+      lrcType: 0
+
   meting:
-    # https://github.com/metowolf/MetingJS
-    # if you want to use meting, please enable aplayer first
     enable: false
     meting_api: # custom api
     options:
@@ -754,32 +755,37 @@ material_theme:
 
 internal_theme:
   light:
-    --red-0: "#7A3E13"
-    --red-1: "#D9772D"
-    --red-2: "#E9914B"
-    --red-3: "#F0AD6E"
-    --red-4: "#F6CAA0"
-    --red-5: "#FBE2C3"
-    --red-5-5: "#FFF0D8"
-    --red-6: "#FFF7E8"
-    --color-red-6-shadow: "rgba(217, 119, 45, 0.45)"
-    --color-red-3-shadow: "rgba(232, 137, 53, 0.25)"
+    --red-0: "#315E70"
+    --red-1: "#5FA8C6"
+    --red-2: "#7FC0D8"
+    --red-3: "#A8D8E9"
+    --red-4: "#C9E8F2"
+    --red-5: "#E1F2F7"
+    --red-5-5: "#EDF8FB"
+    --red-6: "#F5FCFE"
 
-   
-    --highlight-selection: "#75543788"
-    --highlight-background: "#FFFDF8"
-    --highlight-foreground: "#3A312C"
-    --highlight-comment: "#8B7C71"
-    --highlight-nav: "#F7F2E8"
-    --highlight-scrollbar: "#D7C6AE" 
+    --color-red-6-shadow: "rgba(95, 168, 198, 0.45)"
+    --color-red-3-shadow: "rgba(127, 192, 216, 0.28)"
 
-    --highlight-red: "#E58B6B"
-    --highlight-orange: "#E9A15A"
-    --highlight-yellow: "#D8BE68"
-    --highlight-green: "#A3B87B"
-    --highlight-aqua: "#86B8AE"
-    --highlight-blue: "#8EAAC3"
-    --highlight-purple: "#B29AB8"
+    --highlight-nav: "#F2F8FA"
+    --highlight-scrollbar: "#BDD8E2"
+    --highlight-background: "#FBFDFE"
+    --highlight-selection: "#CBE7F188"
+    --highlight-foreground: "#34454D"
+    --highlight-comment: "#7D929B"
+
+    --highlight-red: "#729FB2"
+    --highlight-orange: "#D6A675"
+    --highlight-yellow: "#C9AF6A"
+    --highlight-green: "#7EA99C"
+    --highlight-aqua: "#63AFC1"
+    --highlight-blue: "#5B91B3"
+    --highlight-purple: "#918DB5"
+
+    --highlight-deletion: "#B97B7B"
+    --highlight-deletion-bg: "#F8ECEC"
+    --highlight-addition: "#6F9D8E"
+    --highlight-addition-bg: "#EDF6F2"
 ########################################
 # Vendor
 ########################################

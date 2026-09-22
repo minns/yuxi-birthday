@@ -3,15 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Minns的ACG博客
-subtitle: 动漫・漫画・小说与日常记录
-description: 记录喜欢的作品、角色与阅读观后感
+title: 郑娱希的生日小站
+subtitle: Happy Birthday, 娱希
+description: 小希,生日快乐!
 author: minns
 language: zh-CN
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://minns.github.io
+url: https://minns.github.io/yuxi-birthday
+root: /yuxi-birthday/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

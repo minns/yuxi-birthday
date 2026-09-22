@@ -1,38 +1,59 @@
 ---
-title: Hello World
+title: 二十岁，生日快乐
+date: 2026-09-22 18:00:00
+categories:
+  - 生日
+tags:
+  - 娱希
+  - 二十岁
+  - 生日快乐
+cover: /images/birthday/cat.jpg
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+> 希望所有俗套的祝福语，都在你身上灵验。
 
-### Create a new post
+二十岁生日快乐，郑娱希。
 
-``` bash
-$ hexo new "My New Post"
-```
+想了很久应该用什么样的方式来送你今年的生日礼物，最后决定做这样一个小小的网站。
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+它可能没有真正的礼物那么精致，也没有什么特别厉害的功能，但这里的每一张照片、每一个颜色、每一处小东西，都是为了今天慢慢放进来的。
 
-### Run server
+希望当你打开它的时候，会觉得有一点意外，也有一点开心。
 
-``` bash
-$ hexo server
-```
+二十岁是一个很特别的数字。
 
-More info: [Server](https://hexo.io/docs/server.html)
+好像从这一天开始，过去的很多事情慢慢变成了回忆，而未来又突然有了更多可以期待的东西。
 
-### Generate static files
+所以希望二十岁的你，依然可以去做自己喜欢的事情，去喜欢自己喜欢的人和事，去看更多没有见过的风景，也继续保留那些属于你自己的小小快乐。
 
-``` bash
-$ hexo generate
-```
+不用什么事情都做得特别完美，也不用急着成为谁期待中的样子。
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+希望你可以按照自己的节奏，好好生活，好好吃饭，好好睡觉，也一直有值得期待的明天。
 
-### Deploy to remote sites
+我其实也知道，这些话听起来都很普通。
 
-``` bash
-$ hexo deploy
-```
+“身体健康”“天天开心”“万事顺意”——我们每年都会对别人说很多遍。
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+但如果这些听起来俗套的话，真的能够一件一件发生在你身上，那大概已经是一件很好很好的事情了。
+
+所以今年也还是想认真地把它们再说一次。
+
+希望你有好运气，也有面对不那么幸运的时候的勇气；
+
+希望你被很多人认真地爱，也始终知道怎样珍惜自己；
+
+希望有晴朗的时候，也有云翳，因为有些黄昏正因此才显得格外好看。
+
+总之——
+
+**娱希，二十岁生日快乐。**
+
+愿这一岁，比上一岁更加自由、更加快乐，也更加接近你自己想要的生活。
+
+也祝你万事胜意。
+
+不是所有事情都一定按照计划发生，
+
+而是那些真正来到你身边的事情，
+
+最后都能比你原本期待的，再好那么一点点。
