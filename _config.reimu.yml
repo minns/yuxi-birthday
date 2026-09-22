@@ -711,8 +711,8 @@ player:
       audio:
         - name: Blessings
           artist: Hollow Coves
-          url: /music/blessings.mp3
-          cover: /images/icons/birthday-cake.png
+          url: https://minns.github.io/yuxi-birthday/music/blessings.mp3
+          cover: https://minns.github.io/yuxi-birthday/images/icons/birthday-cake.png
 
       fixed: false
       autoplay: true
@@ -726,12 +726,6 @@ player:
 
   meting:
     enable: false
-    meting_api: # custom api
-    options:
-      id: 2265921590
-      server: netease
-      type: playlist
-      auto:
 
 ########################################
 # pangu.js
